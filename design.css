@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #8b8b8b;
+}
+
+.blok {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    max-width: 350px;
+    width: 100%;
+    padding: 15px 25px 25px;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+.blok .data {
+    margin-top: 15px;
+}
+
+.blok .data p {
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+}
+
+.data p a {
+    color: #FF3232;
+    text-decoration: none;
+}
+
+.data p a:hover {
+    text-decoration: underline;
+}
+
+.blok header {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+header i {
+    font-size: 20px;
+    color: #FF3232;
+}
+
+header h2 {
+    color: #FF3232;
+    font-weight: bold;
+}
+
+.blok .przyciski {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.przyciski .przycisk {
+    padding: 8px 0;
+    width: calc(100% / 2 - 10px);
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    background: #FF3232;
+    cursor: pointer;
+    transition: all .2 ease;
+}
+
+.przyciski .przycisk:hover {
+    background-color: #d32828;
+}
